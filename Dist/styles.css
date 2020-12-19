@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+/*
+	Name: Angela McLaughlin
+    Class Section: CIS-131-W01-Fall 2020
+    Date: 10/4/2020
+*/
+
+html{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+body{
+    background-color:rgb(190, 64, 64);
+    background-size: cover;
+    min-height: 80%;   
+    margin: 0px auto;  
+    width: 60%;
+    font-family: Impact, Charcoal, sans-serif;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border-radius: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+div,h3,h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.button {
+    display:block;
+    margin:5px auto;
+    background-color: maroon;
+    color:red;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+input[type=text] {
+    font-size: 30px;
+    width: 10%;
+  }
+
+#reels{
+    border-style: double;
+    border-width: thick;
+    border-color: gold;
+    color: black;
+}
+
+#changeReels{
+    display: flex;
+}
+
+#message{
+    color:gold;
+}

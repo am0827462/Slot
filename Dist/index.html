@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+	Name: Angela McLaughlin
+    Class Section: CIS-131-W01-Fall 2020
+    Date: 10/4/2020
+    (See scripts.js file for description of the game)
+	-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apollo Gaming</title>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <img src="logo.png" alt="logo" id="logo">
+    <!--Used a free online logo maker-->
+
+    <div id="changeReels">
+        <!--Buttons to change the reel pictures-->
+        <button type="button" class="button" id="fruit">Fruit Reels</button>
+        <button type="button" class="button" id="dog">Dog Reels</button>
+        <button type="button" class="button" id="flower">Flower Reels</button>
+        <button type="button" class="button" id="suprise">Suprise Me</button>
+    </div>
+    <div id="message"></div> 
+    <!--Messages guide user throughout the game-->
+    <div id="reels"></div>
+    <!--JS populates reel pictures here-->
+    <form>
+        <div id="placeBet">
+            <label for="bet">Place your bet (whole numbers only):</label><br>
+            <!--Field to enter bet, JS validates when spin button below clicked-->
+            <input type="text" name="bet" id="bet">
+        </div>
+
+        <button type="button" class="button" id="Spin">Spin</button>
+
+        <div>Your score is:</div>
+
+        <div id="score"> </div>
+        <!--JS keeps running total of score and displays here-->
+        <button type="button" class="button" id="cashout">Cash Out</button>
+        <!--Cash out button completes game-->
+    </form>
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>
